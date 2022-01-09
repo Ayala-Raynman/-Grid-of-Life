@@ -1,0 +1,28 @@
+.main{
+    text-align: center; 
+    width: 100%;
+    background-color: #f8f9fa
+}
+.btn{
+    margin: auto;
+    width: 700px;
+    align-content: center;
+    display: flex !important;
+    justify-content: space-evenly;
+}
+.btn-style{
+    color: rgb(252, 160, 69);
+    background-color: rgba(100, 87, 87, 0.199);
+    border-radius: 10px
+}
+.grid{   
+    grid-template-columns: repeat(50, 20px);
+    text-align: center;
+    display: inline-flex;
+}
+.dead {
+    background-color:rgba(100, 87, 87, 0.199);
+}
+.live{
+    background-color:rgb(252, 160, 69) ;
+}
